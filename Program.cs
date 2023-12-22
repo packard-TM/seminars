@@ -26,15 +26,22 @@
 // 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
 // 2 => -2, -1, 0, 1, 2
 
-Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
-if (number < 0 )
-    {
-        number = number * -1;
-    }
-int counter = - number;
-while (counter <= number)
-    {
-        Console.Write($"{counter} ");
-        counter++;
-    }
+// Console.Write("Введите число: ");
+// int number = int.Parse(Console.ReadLine());
+// if (number < 0 )
+//     {
+//         number = number * -1;
+//     }
+// int counter = - number;
+// while (counter <= number)
+//     {
+//         Console.Write($"{counter} ");
+//         counter++;
+//     }
+
+// Задание 3*. Обсуждение решений
+// Напишите программу, которая принимает на вход трёхзначное целое число и на выходе показывает сумму первой и последней цифры этого числа.
+// 456 => 10
+// 782 => 9
+// 918 => 17
+
