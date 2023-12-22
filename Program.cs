@@ -45,3 +45,12 @@
 // 782 => 9
 // 918 => 17
 
+int intput = (int.Parse(Console.ReadLine()));
+// int decimalLeftover = intput%100;
+// int firstNumber = intput - decimalLeftover;
+int firstNumber = intput/100;
+int lastnumber = intput%10;
+int result = firstNumber + lastnumber;
+Console.WriteLine(result);
+
+// Console.WriteLine(intput/100);
