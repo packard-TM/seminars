@@ -54,3 +54,9 @@ int result = firstNumber + lastnumber;
 Console.WriteLine(result);
 
 // Console.WriteLine(intput/100);
+
+Console.Write("Введите трехзначное число: ");
+string n = Console.ReadLine();
+int num1 = Convert.ToInt32(Convert.ToString(n[0]));
+int num2 = Convert.ToInt32(Convert.ToString(n[2]));
+Console.WriteLine(num1 + num2);
